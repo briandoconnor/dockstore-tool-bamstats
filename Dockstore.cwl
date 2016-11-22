@@ -8,16 +8,6 @@ cwlVersion: v1.0
 $namespaces:
   dct: http://purl.org/dc/terms/
   foaf: http://xmlns.com/foaf/0.1/
-  doap: http://usefulinc.com/ns/doap#
-  adms: http://www.w3.org/ns/adms#
-  dcat: http://www.w3.org/ns/dcat#
-
-$schemas:
-- http://dublincore.org/2012/06/14/dcterms.rdf
-- http://xmlns.com/foaf/spec/20140114.rdf
-- http://usefulinc.com/ns/doap#
-- http://www.w3.org/ns/adms#
-- http://www.w3.org/ns/dcat.rdf
 
 doc: |
   ![build_status](https://quay.io/repository/briandoconnor/dockstore-tool-bamstats/status)
@@ -40,7 +30,7 @@ dct:creator:
 
 requirements:
 - class: DockerRequirement
-  dockerPull: quay.io/briandoconnor/dockstore-tool-bamstats:1.25-7
+  dockerPull: quay.io/briandoconnor/dockstore-tool-bamstats:1.25-8
 - class: InlineJavascriptRequirement
 
 hints:
