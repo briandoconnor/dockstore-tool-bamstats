@@ -12,25 +12,16 @@ $namespaces:
 doc: |
   ![build_status](https://quay.io/repository/briandoconnor/dockstore-tool-bamstats/status)
   A Docker container for the BAMStats command. See the [BAMStats](http://bamstats.sourceforge.net/) website for more information.
-  ```
-  Usage:
-  # fetch CWL
-  $> dockstore tool cwl --entry quay.io/briandoconnor/dockstore-tool-bamstats:1.25-7 > Dockstore.cwl
-  # make a runtime JSON template and edit it (or use the content of sample_configs.json in this git repo)
-  $> dockstore tool convert cwl2json --cwl Dockstore.cwl > Dockstore.json
-  # run it locally with the Dockstore CLI
-  $> dockstore tool launch --entry quay.io/briandoconnor/dockstore-tool-bamstats:1.25-7 \
-      --json Dockstore.json
-  ```
+
 
 dct:creator:
   '@id': http://orcid.org/0000-0002-7681-6415
   foaf:name: Brian O'Connor
-  foaf:mbox: mailto:briandoconnor@gmail.com
+  foaf:mbox: briandoconnor@gmail.com
 
 requirements:
 - class: DockerRequirement
-  dockerPull: quay.io/briandoconnor/dockstore-tool-bamstats:1.25-9
+  dockerPull: quay.io/briandoconnor/dockstore-tool-bamstats:1.25-10
 - class: InlineJavascriptRequirement
 
 hints:
