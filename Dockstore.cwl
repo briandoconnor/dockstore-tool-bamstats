@@ -21,7 +21,7 @@ dct:creator:
 
 requirements:
 - class: DockerRequirement
-  dockerPull: quay.io/briandoconnor/dockstore-tool-bamstats:1.25-10
+  dockerPull: quay.io/briandoconnor/dockstore-tool-bamstats:1.25-11
 - class: InlineJavascriptRequirement
 
 hints:
